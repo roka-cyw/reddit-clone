@@ -1,5 +1,5 @@
 const SubmitPage = () => {
-  return <div>Home</div>
+  return <div>SubmitPage</div>
 }
 
 export default SubmitPage
