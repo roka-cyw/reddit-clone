@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage'
 import PostPage from './pages/PostPage'
 import ProfilePage from './pages/ProfilePage'
 import SubmitPage from './pages/SubmitPage'
-import SubRedditPage from './pages/SubredditPage'
+import SubRedditPage from './pages/SubRedditPage'
 
 import './styles/App.css'
 
@@ -18,7 +18,7 @@ function App() {
           <Route path='r/:subredditName' element={<SubRedditPage />} />
           <Route path='r/:subredditName/submit' element={<SubmitPage />} />
           <Route path='u/:username' element={<ProfilePage />} />
-          <Route path="post':postId" element={<PostPage />} />
+          <Route path='post/:postId' element={<PostPage />} />
           <Route path='*' element={<Navigate to='/' replace />} />
         </Route>
       </Routes>

@@ -1,5 +1,5 @@
 const SubRedditPage = () => {
-  return <div>Home</div>
+  return <div>SubRedditPage</div>
 }
 
 export default SubRedditPage
